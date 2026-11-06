@@ -1,0 +1,16 @@
+# ОС
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Редакторы / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Локальные артефакты
+.env
+*.log
+*.zip
