@@ -52,7 +52,7 @@ CLASS ZCL_ARP_AGENT IMPLEMENTATION.
         CATCH cx_abap_message_digest.
           server->response->set_status( code = 500 reason = 'ARP-ID generation failed' ).
           server->response->set_content_type( content_type = 'text/plain; charset=utf-8' ).
-          server->response->set_cdata( data = 'Unable to calculate SHA-256 hash for ARP-ID' ).
+          server->response->set_cdata( data = 'Unable to calculate hash for ARP-ID' ).
           RETURN.
       ENDTRY.
       lv_arp_id = lv_hash(32).
