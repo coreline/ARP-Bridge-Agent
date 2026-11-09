@@ -76,11 +76,9 @@ CLASS ZCL_ARP_AGENT IMPLEMENTATION.
            && '  <meta charset="utf-8">' && lv_endl
            && '  <meta name="viewport" content="width=device-width, initial-scale=1">' && lv_endl
            && '  <title>ARP Bridge Agent</title>' && lv_endl
-           && '  <link rel="stylesheet" crossorigin="anonymous" href="https://' &&
-              gc_relay_host && '/arp-agent.css">' && lv_endl
+           && '  <link rel="stylesheet" crossorigin="anonymous" href="https://' && gc_relay_host && '/arp-agent.css">' && lv_endl
            && '  <script>window.ARP_ID = "' && lv_arp_id && '";</script>' && lv_endl
-           && '  <script defer crossorigin="anonymous" src="https://' &&
-              gc_relay_host && '/arp-agent.js"></script>' && lv_endl
+           && '  <script defer crossorigin="anonymous" src="https://' && gc_relay_host && '/arp-agent.js"></script>' && lv_endl
            && '</head>' && lv_endl
            && '<body></body>' && lv_endl
            && '</html>' && lv_endl.
